@@ -1,0 +1,153 @@
+.navbar {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    background-color: white;
+    font-size: 10pt;
+    font-weight: 200;
+}
+
+body {
+	color: black;
+}
+
+small {
+	color: #737373;
+}
+
+.navbar-brand {
+	color: black !important;
+	letter-spacing: 2px;
+}
+
+.navbar-nav li a {
+	color: black !important;
+}
+
+.navbar-nav li a:hover {
+    color: #808080 !important;
+    text-decoration: underline;
+}
+
+.title {
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#prof-pic {
+	margin-bottom: 18px;
+}
+
+.single-column {
+	margin-left: 120px;
+	margin-right: 120px;
+}
+
+.top-container {
+	margin-top: 35px;
+}
+
+.grey-row {
+	background-color: #f6f6f6;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.white-row {
+	background-color: white;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.selected {
+	text-decoration: underline;
+}
+
+p {
+	font-family: Georgia, serif;
+}
+
+.album-art {
+	margin-top: 26px;
+}
+
+.album-art-left {
+	float: right;
+}
+
+.album-art-right {
+	float: left;
+}
+
+.track-list {
+	padding: 0;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	list-style-position: inside;
+	font-weight: 500;
+	font-size: 14pt;
+}
+
+.purchase-links a {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	overflow: hidden;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+.spotify {
+	margin-top: 7px;
+}
+
+.apple-music {
+	margin-top: 3px;
+}
+
+.google-play {
+	margin-top: 4px;
+}
+
+.amazon {
+	margin-top: 18px;
+}
+
+a:hover path, a:hover rect, a:hover polygon {
+	fill: #808080;
+}
+
+footer {
+	background-color: white;
+	text-align: center;
+	font-size: 14pt;
+}
+
+footer a {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	overflow: hidden;
+	color: black;
+	padding: 7px 7px 7px 7px;
+}
+
+footer a:hover {
+	color: #808080;
+}
+
+@media screen and (max-width: 750px) {
+	.single-column {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+	.album-art {
+		width: 90%;
+		margin:auto;
+		float: none;
+	}
+}
