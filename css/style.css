@@ -42,8 +42,8 @@ small {
 }
 
 .single-column {
-	margin-left: 120px;
-	margin-right: 120px;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 .top-container {
@@ -68,6 +68,24 @@ small {
 
 p {
 	font-family: Georgia, serif;
+}
+
+.work-name {
+	font-weight: bold;
+}
+
+.work-position {
+	margin-top: 0;
+	margin-bottom: 30px;
+	font-weight: normal;
+}
+
+.indented-content {
+	margin-left: 30px;
+}
+
+.work-detail {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .album-art {
@@ -132,7 +150,7 @@ footer a {
 	vertical-align: middle;
 	overflow: hidden;
 	color: black;
-	padding: 7px 7px 7px 7px;
+	padding: 7px;
 }
 
 footer a:hover {
@@ -140,10 +158,6 @@ footer a:hover {
 }
 
 @media screen and (max-width: 750px) {
-	.single-column {
-		margin-left: 15px;
-		margin-right: 15px;
-	}
 
 	.album-art {
 		width: 90%;
