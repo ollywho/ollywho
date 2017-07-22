@@ -19,7 +19,7 @@ small {
 
 .navbar-brand {
 	color: black !important;
-	letter-spacing: 2px;
+	letter-spacing: 5px;
 }
 
 .navbar-nav li a {
@@ -42,8 +42,8 @@ small {
 }
 
 .single-column {
-	margin-left: 10%;
-	margin-right: 10%;
+	max-width: 480px;
+	margin: auto;
 }
 
 .top-container {
@@ -70,21 +70,21 @@ p {
 	font-family: Georgia, serif;
 }
 
-.work-name {
+.work-name, .project-name {
 	font-weight: bold;
 }
 
 .work-position {
 	margin-top: 0;
-	margin-bottom: 30px;
 	font-weight: normal;
 }
 
 .indented-content {
+	margin-top: 30px;
 	margin-left: 30px;
 }
 
-.work-detail {
+.work-detail, .project-skills {
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
@@ -157,11 +157,18 @@ footer a:hover {
 	color: #808080;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 770px) {
 
 	.album-art {
 		width: 90%;
 		margin:auto;
 		float: none;
+	}
+}
+
+@media screen and (max-width: 480px) {
+
+	.indented-content {
+		margin-left: 0px;
 	}
 }
