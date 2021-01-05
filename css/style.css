@@ -37,8 +37,24 @@ small {
 	margin-bottom: 30px;
 }
 
-#prof-pic {
-	margin-bottom: 18px;
+.subtitle {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.pic-hover-caption-container {
+	display: inline;
+	height: 350px;
+	width: 350px;
+}
+
+.prof-pic-caption {
+	margin-top: 8px;
+	visibility: hidden;
+}
+
+.pic-hover-caption-container:hover .prof-pic-caption {
+	visibility: visible;
 }
 
 .single-column {
